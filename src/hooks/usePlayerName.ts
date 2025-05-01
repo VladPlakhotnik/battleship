@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const PLAYER_NAME_KEY = "battleship_player_name";
 

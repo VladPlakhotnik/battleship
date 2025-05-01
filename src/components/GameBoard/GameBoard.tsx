@@ -15,7 +15,6 @@ export const GameBoard: React.FC = () => {
 
     dispatch(makeMove({ row, col }));
 
-    // Проверяем результат хода
     if (board[row][col].hasShip) {
       playHit();
     } else {
